@@ -27,11 +27,15 @@
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input type="number" min="0" class="form-control text-center" value="1">
-                           <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <!-- o3 id=phone-minus -->
+                           <button id="phone-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <!-- o2 id=phone-number -->
+                           <input id="phone-number" type="number" min="0" class="form-control text-center" value="1">
+                           <!-- o1 id=phone-plus -->
+                           <button id="phone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
-                        <h5>$1219</h5>
+                        <!-- o5 id=phone-total-->
+                        <h5>$<span id="phone-total">1219</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -45,15 +49,16 @@
                      </div>
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <!-- 03 id=minus -->
+                           <!-- 03 id=case-minus -->
                            <button id="case-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <!-- 02 id=number -->
+                           <!-- 02 id=case-number -->
                            <input id="case-number" type="number" min="0" class="form-control text-center" value="1">
-                           <!-- 01 id=plus -->
+                           <!-- 01 id=case-plus -->
                            <button id="cese-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
 
                         </div>
-                        <h5>$59</h5>
+                        <!-- 04 id=case-total -->
+                        <h5>$<span id="case-total">59</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -69,9 +74,12 @@
                      </div>
 
                      <div class="col-md-4 status">
-                        <h5>$1,278</h5>
-                        <h5>$0</h5>
-                        <h5>$1,278</h5>
+                        <!-- o1 id=Subtotal -->
+                        <h5>$<span id="sub-total">1278</span></h5>
+                        <!-- o2 id=tax-amount-->
+                        <h5>$<span id="tax-amount">0</span></h5>
+                        <!-- o3 id=total-price -->
+                        <h5>$<span id="total-price">1278</span></h5>
                      </div>
                   </div>
                </div>
